@@ -54,7 +54,18 @@ h1 {
     font-family: 'Impact';
     letter-spacing: 2px;
     font-size: 40px;
+    transition: 0.3s;
 }
+
+h1:hover {
+    color: #FF9401;
+}
+
+.header__link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
 .hero {
     background: url(./assets/img/header-bg.png) no-repeat;
@@ -74,7 +85,7 @@ h1 {
     width: 85px;
     position: absolute;
     left: 6px;
-    top: 186px;
+    top: 190px;
 }
 
 .text {
@@ -88,6 +99,7 @@ margin-top: -17px;
     min-height: 85px;
     padding-top: 10px;
     margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -248,13 +260,13 @@ background-color: #219730;
 .inner-text {
     margin-top: 10px;
     border: 1px #FF9401 solid;
-    height: 25px;
+    height: 30px;
     font-family: inherit;
     font-weight: 200;
 }
 
 .send__button {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
     background-color: #219730;
     border: 0;
@@ -264,13 +276,13 @@ background-color: #219730;
     font-weight: 300;
     cursor: pointer;
     margin-left: 10px;
-    transform: 0.3s;
+    transition: 0.3s;
 }
 
 .send__button:hover {
     background-color: #FF9401;
     box-shadow: 0 0.5em 0.5em -0.4em #ffa260;
-	transform: translatey(0.3em);
+	/* transform: translatey(0.3em); */
     color: #FFFFFF; 
 
 }
@@ -304,7 +316,7 @@ background-color: #219730;
     font-style: normal;
     text-align: center;
     text-decoration: none;
-    transform: 0.3s;
+    transition: 0.3s;
 }
 
 .privacy:hover {
