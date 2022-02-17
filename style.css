@@ -47,7 +47,8 @@ body {
 
 h1 {
     text-align: center;
-    color: #FFFFFF;
+    color: #219730;
+    /* color: #FFFFFF; */
     font-weight: 700;
     margin-top: 18px;
     margin-bottom: 18px;
@@ -63,7 +64,8 @@ h1 {
 }
 
 .header__wrapper {
-    background-color: #219730;
+    /* background-color: #219730; */
+    background-color: #FFF;
     min-height: 60px;
     display: flex;
     justify-content: center;
@@ -184,12 +186,13 @@ h3 {
     align-items: center ;
     justify-content: center;
     margin-top: 30px;
+    padding: 0 10px;
 }
 
 .nature__text {
 text-align: center;
 margin-top: 25px;
-font-size: 25px;
+font-size: 20px;
 color: #FFF;
 background-color: #219730;
 }
